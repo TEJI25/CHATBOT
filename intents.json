@@ -1,0 +1,80 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey , what I can call you :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+
+    {
+      "tag": "name",
+      "patterns": ["what is your name"],
+      "responses": [ "Hi! Please view this link <button class=\"c_button\"  onclick=\"myFunction2()\">Know More</button>"]
+    },
+
+
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [ "Thanks for visiting!! If you have any un-answered queries you can contact the below Faculty\n <H4> For Btech Admission Queries: </H4><span> 9041495448 </span>"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": [ "Hi! Please view this link: <a href='www.examplelink.com'>www.examplelink.com</a>"]
+    },
+    {
+        "tag": "Admission-queries",
+        "patterns": [
+          "colleges",
+        "Why should i opt for your college?",
+        "why your college over others?",
+        "why your college?",
+        "how good is your college?",
+        "Is your college any good?",
+        "Tell me about your college?",
+        "Describe your college?"
+        ],
+        "responses": [
+       "It Is Good"
+        ]
+    },
+    {
+      "tag": "Courses-offered",
+      "patterns": [
+        "What courses do you offer?",
+        "courses",
+        "courses kya hai",
+        "What about courses offered"
+      ],
+      "responses": [
+        "Civil Engineering\nComputer Science and Engineering\nElectrical Engineering\nElectronics and Communication Engineering\nInformation Technology\nMechanical Engineering\nMechanical Engineering (Production) <button class=\"c_button\"  onclick=\"myFunction()\">Know More</button>"
+      ]
+    },
+    {
+      "tag": "Faculty-contact",
+      "patterns" : [
+        "What is the contact number of your faculty?",
+        "contact",
+        "number"
+      ],
+      "responses": [
+        "<H4> For General Enquiry :</H4> <span> 7087600448 </span>\n <H4> For Btech Admission Queries: </H4><span> 9041495448 </span>\n <H4> For Mtech Admission Queries :<span> 8968553073 </span>"
+      ]
+    }
+  ]
+}
+
